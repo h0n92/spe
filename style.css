@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: white;
+  padding: 30px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  margin: 80px auto 80px auto;
+}
+
+main form table{
+  margin: 100px auto 100px auto;
+}
+
+main form tr{
+  height: 30px;
+}
+
+main button{
+  float: right;
+}
+.main-image {
+  text-align: center;
+}
+
+.main-image img {
+  width: auto;
+  height: 100%;
+}
+
+footer {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.image-container img{
+  display: table;
+  margin: 100px auto 300px auto;
+}
+
+.reply-regis-btn{
+  float: right;
+}
+
+.reply-table table{
+  margin: 0 auto 100px auto;
+}
+
+.reply-table table tr{
+  height: 50px;
+}
+
+.replyer{
+  text-align: center;
+  width: 100px;
+}
+
+.reply-content{
+  text-align: center;
+  width: 500px;
+}
