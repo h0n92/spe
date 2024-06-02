@@ -54,7 +54,11 @@ main form tr{
   height: 30px;
 }
 
-main button{
+main .signUp-btn{
+  float: right;
+}
+
+main .login-btn{
   float: right;
 }
 .main-image {
