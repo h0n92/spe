@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>SPE</title>
-	</head>
-	<body>
-		
-	</body>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>spe</title>
+  <link rel="stylesheet" href="/spe/style.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="/spe/main.html"><img src="/spe/img/logo.png" alt="logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/spe/artList.html">List</a></li>
+      <li><a href="/spe/mypage.html">Mypage</a></li>
+      <li><a href="/spe/myArt.html">My art</a></li>
+      <li><a href="/spe/signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <div class="art-regis-form">
+    <form action="/spe/myArt.html" method="post">
+      <h2>Register Art</h2>
+      <table>
+        <tr>
+          <td class="bold">art name</td>
+          <td><input type="text" id="id" name="id" required></td>
+        </tr>
+        <tr>
+          <td class="bold">about art</td>
+          <td><textarea id="about" name="about" cols="50" rows="7"></textarea></td>
+        </tr>
+        <tr>
+          <td class="bold">content</td>
+          <td><textarea id="content" name="content" cols="50" rows="7"></textarea></td>
+        </tr>
+        <tr>
+          <td class="bold">main photo</td>
+          <td><input type="file" id="photo" name="photo" required></td>
+        </tr>
+        <tr>
+          <td colspan="2"><div class="art-regis-btn"><button>register</button></div></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</main>
+
+<footer>
+  <p>SMALL PHOTO EXHIBITION</p>
+</footer>
+</body>
 </html>

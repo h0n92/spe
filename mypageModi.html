@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>SPE</title>
-	</head>
-	<body>
-		
-	</body>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>spe</title>
+  <link rel="stylesheet" href="/spe/style.css">
+</head>
+<body>
+<header>
+  <div class="logo">
+    <a href="/spe/main.html"><img src="/spe/img/logo.png" alt="logo"></a>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="/spe/artList.html">List</a></li>
+      <li><a href="/spe/mypage.html">Mypage</a></li>
+      <li><a href="/spe/myArt.html">My art</a></li>
+      <li><a href="/spe/signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h2>Modify</h2>
+  <form action="/spe/mypage.html" method="post">
+    <div class="my-modify-table">
+      <table>
+        <tr>
+          <td class="bold">id</td>
+          <td>OOOOOO</td>
+        </tr>
+        <tr>
+          <td class="bold">name</td>
+          <td>OOO</td>
+        </tr>
+        <tr>
+          <td class="bold">e-mail</td>
+          <td><input type="text" id="email" name="email" placeholder="OOO00@gmail.com"></td>
+        </tr>
+        <tr>
+          <td class="bold">pw check</td>
+          <td><input type="text" id="pw" name="pw" required></td>
+        </tr>
+        <tr>
+          <td colspan="2"><div class="user-modify-btn"><button>modify</button></div></td>
+        </tr>
+      </table>
+    </div>
+  </form>
+</main>
+
+<footer>
+  <p>SMALL PHOTO EXHIBITION</p>
+</footer>
+</body>
 </html>
