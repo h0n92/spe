@@ -20,9 +20,7 @@ header {
   height: auto;
 }
 
-nav {
-  float: right;
-}
+nav {float: right;}
 
 nav ul {
   list-style: none;
@@ -46,29 +44,42 @@ main {
   margin: 80px auto 80px auto;
 }
 
-main form table{
-  margin: 100px auto 100px auto;
-}
+main form table{margin: 100px auto 100px auto;}
 
-main form tr{
-  height: 30px;
-}
+main form tr{height: 30px;}
 
-main .signUp-btn{
-  float: right;
-}
+main .signUp-btn{float: right;}
 
-main .login-btn{
-  float: right;
-}
-.main-image {
-  text-align: center;
-}
+main .login-btn{float: right;}
+
+.main-image {text-align: center;}
 
 .main-image img {
   width: auto;
   height: 100%;
 }
+
+main .myPage-table table{margin: 50px auto 50px auto;}
+
+main .myPage-table table td{width: 500px;}
+
+main .star-table tr{height: 130px;}
+
+main .star-table td{width: 100px;}
+
+
+main .star-table img{
+  height: 100px;
+  width: auto;
+}
+
+main .my-table td{width: 50px;}
+
+main .my-table tr{height: 50px;}
+
+main .my-table button{float: right;}
+
+.bold{font-weight: bold;}
 
 footer {
   background-color: white;
@@ -81,17 +92,11 @@ footer {
   margin: 100px auto 300px auto;
 }
 
-.reply-regis-btn{
-  float: right;
-}
+.reply-regis-btn{float: right;}
 
-.reply-table table{
-  margin: 0 auto 100px auto;
-}
+.reply-table table{margin: 0 auto 100px auto;}
 
-.reply-table table tr{
-  height: 50px;
-}
+.reply-table table tr{height: 50px;}
 
 .replyer{
   text-align: center;
@@ -102,3 +107,39 @@ footer {
   text-align: center;
   width: 500px;
 }
+
+.signUp-form table{width: 400px;}
+
+.my-modify-table tr{height: 50px;}
+
+.my-modify-table table{width: 300px;}
+
+.my-modify-table .user-modify-btn{float: right;}
+
+.art-list-table table{
+  margin: 0 auto 100px auto;
+  width: 1000px;
+}
+
+.art-list-table img{height: 100px;}
+
+.art-list-table tr{height: 130px;}
+
+.my-art-list-table table{
+  margin: 0 auto 100px auto;
+  width: 1000px;
+}
+
+.my-art-list-table img{height: 100px;}
+
+.my-art-list-table tr{height: 130px;}
+
+.my-art-list-table button{float: right;}
+
+.art-regis-btn{float: right;}
+
+textarea{resize: none;}
+
+.art-regis-form table tr{height: 50px}
+
+.art-regis-form table{width: 500px}
