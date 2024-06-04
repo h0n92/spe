@@ -50,7 +50,7 @@ main form tr{height: 30px;}
 
 main .signUp-btn{float: right;}
 
-main .login-btn{float: right;}
+main .go-signup-btn{float: right;}
 
 .main-image {text-align: center;}
 
@@ -143,3 +143,11 @@ textarea{resize: none;}
 .art-regis-form table tr{height: 50px}
 
 .art-regis-form table{width: 500px}
+
+a:link{color: black;}
+
+a:visited { color:black;}
+
+a:hover { color:gray;}
+
+a{text-decoration: none;}

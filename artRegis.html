@@ -16,7 +16,7 @@
       <li><a href="/spe/artList.html">List</a></li>
       <li><a href="/spe/mypage.html">Mypage</a></li>
       <li><a href="/spe/myArt.html">My art</a></li>
-      <li><a href="/spe/signup.html">Sign Up</a></li>
+      <li><a href="/spe/login.html">Login</a></li>
     </ul>
   </nav>
 </header>
@@ -40,7 +40,17 @@
         </tr>
         <tr>
           <td class="bold">main photo</td>
-          <td><input type="file" id="photo" name="photo" required></td>
+          <td>
+            <input type="file" name="mainImg" id="mainImg" />
+          </td>
+        </tr>
+        <tr>
+          <td class="bold">photos</td>
+          <td>
+            <form action="/spe/upload.html" method="post" enctype="multipart/form-data">
+              <input multiple="multiple" type="file" name="filename[]" />
+            </form>
+          </td>
         </tr>
         <tr>
           <td colspan="2"><div class="art-regis-btn"><button>register</button></div></td>
