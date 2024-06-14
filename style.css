@@ -44,9 +44,7 @@ main {
   margin: 80px auto 80px auto;
 }
 
-main form table{margin: 100px auto 100px auto;}
-
-main form tr{height: 30px;}
+main table{margin: 100px auto 100px auto;}
 
 main .signUp-btn{float: right;}
 
@@ -108,7 +106,10 @@ footer {
   width: 500px;
 }
 
-.signUp-form table{width: 400px;}
+.signUp-table table{
+  width: 400px;
+  margin: 0 auto 100px auto;
+}
 
 .my-modify-table tr{height: 50px;}
 
@@ -140,9 +141,9 @@ footer {
 
 textarea{resize: none;}
 
-.art-regis-form table tr{height: 50px}
+.art-regis-table table tr{height: 50px}
 
-.art-regis-form table{width: 500px}
+.art-regis-table table{width: 500px}
 
 a:link{color: black;}
 

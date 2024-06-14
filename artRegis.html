@@ -22,41 +22,43 @@
 </header>
 
 <main>
-  <div class="art-regis-form">
-    <form action="/spe/myArt.html" method="get">
-      <h2>Register Art</h2>
-      <table>
-        <tr>
-          <td class="bold">art name</td>
-          <td><input type="text" id="id" name="id" required></td>
-        </tr>
-        <tr>
-          <td class="bold">about art</td>
-          <td><textarea id="about" name="about" cols="50" rows="7"></textarea></td>
-        </tr>
-        <tr>
-          <td class="bold">content</td>
-          <td><textarea id="content" name="content" cols="50" rows="7"></textarea></td>
-        </tr>
-        <tr>
-          <td class="bold">main photo</td>
-          <td>
-            <input type="file" name="mainImg" id="mainImg" />
-          </td>
-        </tr>
-        <tr>
-          <td class="bold">photos</td>
-          <td>
-            <form action="/spe/upload.html" method="post" enctype="multipart/form-data">
-              <input multiple="multiple" type="file" name="filename[]" />
-            </form>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="2"><div class="art-regis-btn"><button>register</button></div></td>
-        </tr>
-      </table>
-    </form>
+  <div class="art-regis-table">
+    <h2>Register Art</h2>
+    <table>
+      <tr>
+        <td class="bold">art name</td>
+        <td><input type="text" id="id" name="id" required></td>
+      </tr>
+      <tr>
+        <td class="bold">about art</td>
+        <td><textarea id="about" name="about" cols="50" rows="7"></textarea></td>
+      </tr>
+      <tr>
+        <td class="bold">content</td>
+        <td><textarea id="content" name="content" cols="50" rows="7"></textarea></td>
+      </tr>
+      <tr>
+        <td class="bold">main photo</td>
+        <td>
+          <input type="file" name="mainImg" id="mainImg" />
+        </td>
+      </tr>
+      <tr>
+        <td class="bold">photos</td>
+        <td>
+          <form action="/spe/upload.html" method="post" enctype="multipart/form-data">
+            <input multiple="multiple" type="file" name="filename[]" />
+          </form>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="art-regis-btn">
+            <button><a href="/spe/myArt.html">register</a></button>
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
 </main>
 
